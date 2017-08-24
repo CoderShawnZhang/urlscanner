@@ -1,5 +1,5 @@
 {
-    "name": "laravelUrl/urlscannerTest",
+    "name": "laravelurl/urlscannertest",
     "description": "Scan URLs FROM A CSV FILE AND REPORT INACCESSIBLE URLs",
     "require": {
         "php": ">=5.4.0",
