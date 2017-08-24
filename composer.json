@@ -1,6 +1,19 @@
 {
     "name": "laravelurl/urlscannertest",
     "description": "Scan URLs FROM A CSV FILE AND REPORT INACCESSIBLE URLs",
+    "keywords": ["url", "scanner", "csv"],
+    "homepage": "http://laravelacademy.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "张洪波",
+            "email": "taobao1875@163.com"
+        }
+    ],
+    "support": {
+        "email": "taobao1875@163.com"
+    },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "guzzlehttp/guzzle": "~5.0"
@@ -8,12 +21,12 @@
     "require-dev": {
         "phpunit/phpunit": "~4.3"
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "zhanghongbo",
-            "email": "shawnzhang@gmail.com"
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelAcademy\\UrlScanner\\": "src/"
         }
-    ],
-    "minimum-stability": "dev"
+    }
 }
