@@ -1,5 +1,5 @@
 <?php
-namespace UrlScanner\Url;
+namespace LaravelAcademy\UrlScanner\Url;
 
 use GuzzleHttp\Client;
 
